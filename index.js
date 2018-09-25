@@ -18,7 +18,14 @@ module.exports = {
     'no-useless-constructor': 'off',
     'no-underscore-dangle': 'off',
     'no-empty-function': 'off',
-    'no-undef': 'off'
+    'no-undef': 'off',
+    'lines-between-class-members': [
+      'error',
+      'always',
+      {
+        'exceptAfterSingleLine': true
+      }
+    ]
   },
   'settings': {
     'import/resolver': {
