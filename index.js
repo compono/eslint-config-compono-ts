@@ -1,12 +1,12 @@
 module.exports = {
-  'parser': 'typescript-eslint-parser',
+  'parser': '@typescript-eslint/parser',
   'extends': [
-    'shortlyster',
+    'compono',
     'prettier'
   ],
   'plugins': [
     'import',
-    'typescript',
+    '@typescript-eslint',
     'prettier'
   ],
   'rules': {
