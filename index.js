@@ -2,7 +2,8 @@ module.exports = {
   'parser': '@typescript-eslint/parser',
   'extends': [
     'compono',
-    'prettier'
+    'prettier',
+    "prettier/@typescript-eslint"
   ],
   'plugins': [
     'import',
@@ -19,6 +20,11 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'no-empty-function': 'off',
     'no-undef': 'off',
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "error",
+    "@typescript-eslint/array-type": ["error", "array-simple"],
     'lines-between-class-members': [
       'error',
       'always',
