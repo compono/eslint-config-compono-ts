@@ -1,16 +1,16 @@
-# TypeScript tailored standard ESLint config for Shortlyster
+# TypeScript tailored standard ESLint config for compono
 
 Install the thing in your project
 
 ```
-npm add -D eslint-config-shortlyster-ts
+npm add -D eslint-config-compono-ts
 ```
 
 Add `.eslintrc` to your project.
 
 ```json
 {
-  "extends": "shortlyster-ts",
+  "extends": "compono-ts",
   "rules": {
     // project specific rules go here
   }
@@ -22,4 +22,4 @@ Add `.eslintrc` to your project.
 
 All code in this repository released under the terms of the MIT license
 
-Copyright (C) 2018 Compono Pty Ltd
+Copyright (C) 2018-2019 Compono Pty Ltd
