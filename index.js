@@ -25,7 +25,7 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": "error",
-    "@typescript-eslint/array-type": ["error", "array-simple"],
+    "@typescript-eslint/array-type": ["error", { default: 'array-simple' }],
     "no-restricted-syntax": [
       "error",
       "ForInStatement",
