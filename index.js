@@ -3,7 +3,6 @@ module.exports = {
   'extends': [
     'compono',
     'prettier',
-    "prettier/@typescript-eslint"
   ],
   'plugins': [
     'import',
