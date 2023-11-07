@@ -4,7 +4,6 @@ module.exports = {
   'parser': '@typescript-eslint/parser',
   'extends': [
     'airbnb-base',
-    'compono',
     'prettier',
   ],
   'plugins': [
